@@ -18,7 +18,7 @@ public class BinaryNode<T extends Comparable<T>>
 	public BinaryNode() 
 	{
 		super();
-		
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override
