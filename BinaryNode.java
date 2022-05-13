@@ -1,29 +1,13 @@
 package binarytree;
 
-public class BinaryNode<T extends Comparable<T>> 
-{
-	
-	T key;
-	BinaryNode<T> left;
-	BinaryNode<T> right;
-	
-	public BinaryNode(T key)
-	{
-		super();
-		this.key = key;
-		this.left = null;
-		this.right = null;
-	}
+public class BinaryNode {
+    int data;
+    BinaryNode left;
+    BinaryNode right;
 
-	public BinaryNode() 
-	{
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	@Override
-	public String toString() 
-	{
-		return "BinaryNode [data=" + key + ", left=" + left + ", right=" + right + "]";
-	}
+    public BinaryNode(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
 }
